@@ -124,7 +124,7 @@ const App = () => {
         </div>
         <img
           className="logo"
-          src="/logo-trasparente.png"
+          src="/fondo-blanco.png"
           alt="Descripción de la imagen"
         />
       </div>

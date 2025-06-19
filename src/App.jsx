@@ -90,7 +90,7 @@ const App = () => {
     },
       {
       className: "tarjeta-libro",
-      id: 11,
+      id: 12,
       nombre: "Descubre el camino",
       precio: 1200,
       imagen: "https://imgs.search.brave.com/_5sFOo1Kwb32vYYtdI_6u7_T_yxs2c0Suo6URuKXtW4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDFqU2Qzd0tlaEwu/anBn",

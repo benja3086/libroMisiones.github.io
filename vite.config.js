@@ -1,7 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-
+import path from 'path'
 export default defineConfig({
+  base: '/libroMisiones.github.io/', 
   plugins: [react()],
-  base: '/libroMisiones.github.io/', // 👈 MUY importante para GitHub Pages
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
+  },
 })

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Index.css";
 import Home from "./Home";
 
-
 const App = () => {
   const [busqueda, setBusqueda] = useState("");
 

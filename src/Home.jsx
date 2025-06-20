@@ -1,9 +1,13 @@
+import React from 'react';
+import './Home.css';
 function Home() {
   return (
-    <div className="home-bar">
-      Bienvenido a Librería Misiones 📚
-    </div>
+    <div>
+    <p className='libro'></p>
+    
+</div>
   );
 }
 
 export default Home;
+

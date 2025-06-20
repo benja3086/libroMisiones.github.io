@@ -144,6 +144,12 @@ const App = () => {
             alt="Descripción de la imagen"
           />
         </div>
+
+        <img
+          className="logo"
+          src="/fondo-blanco.png"
+          alt="Descripción de la imagen"
+        />
       </div>
     </>
   );

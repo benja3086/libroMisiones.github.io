@@ -58,12 +58,35 @@
   font-weight: bold;
   font-size: 1.1rem;
 }
-
 .logo {
-  position: fixed;  
-  top: 10px;        
-  left: 10px;       
-  width: 150px;    
+  width: 180px;
   height: auto;
-  z-index:1000;
-};
+  margin-bottom: 20px;
+  display: block;
+}
+
+ .logo1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: auto;
+    z-index: 1000;
+  }
+.home-header {
+  text-align: center;
+  padding: 30px 20px 10px;
+  background-color: #ffffff;
+}
+
+.home-logo {
+  width: 180px;
+  height: auto;
+}
+
+.titulo {
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold;
+}
